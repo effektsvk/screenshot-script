@@ -21,7 +21,7 @@ total = 0
 rawFiles = [
 	os.path.join(dirpath, f)
 	for dirpath, dirnames, filenames in os.walk(filePath)
-	for f in fnmatch.filter(filenames, "*.mkv")
+	for f in fnmatch.filter(filenames, "*.mkv")  # edit here for another file format
 ]
 
 for file in rawFiles:
