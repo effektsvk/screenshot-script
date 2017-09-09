@@ -47,7 +47,7 @@ else:
 		durations = []
 		while (i < 3):
 			i += 1
-			print "Creating screenshots of " + files[s - 1] + "... (" + str(object=i) + "/3)"
+			print "Creating screenshots of " + fileNames[s - 1] + "... (" + str(object=i) + "/3)"
 			int(i)
 			durations.insert(i - 1, ((int(duration) / 4) * i + 1))
 			str(object=i)
